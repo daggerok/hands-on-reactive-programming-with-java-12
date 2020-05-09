@@ -1,4 +1,4 @@
-package daggerok._02;
+package daggerok._12;
 
 import com.jayway.awaitility.Duration;
 import lombok.Cleanup;
