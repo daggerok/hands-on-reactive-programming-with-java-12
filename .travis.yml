@@ -1,0 +1,9 @@
+notifications:
+  email: false
+language: java
+jdk: openjdk11
+install: true
+script: ./mvnw
+cache:
+  directories:
+  - ~/.m2
