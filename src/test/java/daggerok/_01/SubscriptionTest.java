@@ -47,7 +47,6 @@ class SubscriptionTest {
     publisher.subscribe(subscriber);
     List.of("ololo", "trololo")
         .forEach(publisher::submit);
-    publisher.close();
 
     // then:
     await().atMost(Duration.TWO_SECONDS)
